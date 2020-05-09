@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <stdbool.h>
+
 //bubble sort - metodo de ordenação
 void troca(int *valor1,int *valor2) {
 	int aux;
@@ -30,7 +30,6 @@ void bubbleSort(int *prt_num, int max) {
 main() {
 	int i,quanTroca=0,max=0;
 	int num,*prt_num = NULL, *prt_num_mais;
-	bool verificar = false;
 	
 	printf("REGRA DE PARADA: 9999\n");
 	printf("digite quantos numeros desejar\n");
