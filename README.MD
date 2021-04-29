@@ -11,9 +11,13 @@ Bubble Sort é um algorimo de ordenação dos mais simples a ideia principal del
 Inserido os dados: `3 4 7 6 2`
 
 na sequencia de varreduras acontecera o seguinte:
+
 1° `3 4 6 2 7`
+
 2° `3 4 2 6 7`
+
 3° `3 2 4 6 7`
+
 4° `2 3 4 6 7`
 
 Foram necessarias 4 sequencias de varreduras a complexidade e sempre de _N_ para baixo sendo _N_ a quantide de posição ocupadas do vetor.
